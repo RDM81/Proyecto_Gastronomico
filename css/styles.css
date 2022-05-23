@@ -350,7 +350,7 @@ p{
     animation: loader 1.5s infinite ease-in-out;
 }
 .loader {
-    color: yellowgreen;
+    color: #E7BAA0;
     font-size: 13px;
     position: relative;
     animation-delay: -0.16s;
