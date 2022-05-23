@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YED</title>
+    <!--BOOSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@300&family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@600&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body onload="checkLanguage()">
+
+
+ <!--LOADER-->
+ <div class="contenedor_loader">
+    <div class="loader"></div>
+    
+</div>
+
+
+
+
+    <main class="spanish">
+        <div class="botones_header">
+            <button class="botonLogo">
+                <img class="logoBoton_1" src="./img/LOGO ROSA.png" alt="Hoteles">
+                <h1 class="titulo_boton">Reseñas Gastronomicas y hoteleras</h1>
+            </button>
+            <button class="botonContacto">
+                <h2 class="text_contacto">contactoyed@gmail.com</h2>
+                <div class="icono_Contacto">
+                    <i class="bi bi-envelope icono_mail"></i>
+                </div>
+            </button>
+        </div>
+        <div class="slider_container">
+            <!-- HOME 1 -->
+            <section class="contenido_slider">
+                <img class="img_home" src="./img/home.png" alt="">
+                    <div class="menu_lateral">
+                        <ul> 
+                            <li class="li_laterla_1 animate__animated animate__fadeIn animate__slower animate__infinite">Hoteles</li>
+                            <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Hostels</li>
+                            <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Airbnb</li>
+                            <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">All Inclusive</li>
+                        </ul>
+                    </div>
+            </section>
+            <!-- HOME 2 -->
+            <section class="contenido_slider">
+                <img class="img_home" src="./img/home_2.png" alt="">
+                    <div class="menu_lateral__right">
+                        <ul>
+                            <li class="li_lateralRight_1 animate__animated animate__fadeIn animate__slower animate__infinite">Restaurantes</li>
+                            <li class="li_lateralRight animate__animated animate__fadeIn animate__slower animate__infinite">Gourmet</li>
+                            <li class="li_lateralRight animate__animated animate__fadeIn animate__slower animate__infinite">Comida Rapida</li>
+                            <li class="li_lateralRight animate__animated animate__fadeIn animate__slower animate__infinite">Bodegon</li>
+                        </ul>
+                    </div>
+            </section>
+            <!-- HOME 3 -->
+            <section class="contenido_slider">
+                <img class="img_home" src="./img/home_3.png" alt="Cafeterias">
+                <div class="menu_lateral">
+                    <ul>
+                        <li class="li_laterla_1 animate__animated animate__fadeIn animate__slower animate__infinite">Cafeterias</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">de Especialidad</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Patisserie</li>
+                    </ul>
+                </div>
+            </section>
+            <!-- HOME 4 -->
+            <section class="contenido_slider">
+                <img class="img_home" src="./img/home_4.png" alt="Bares">
+                <div class="menu_lateral__right">
+                    <ul>
+                        <li class="li_lateralRight_1 animate__animated animate__fadeIn animate__slower animate__infinite">Bares</li>
+                        <li class="li_lateralRight animate__animated animate__fadeIn animate__slower animate__infinite">Cócteles</li>
+                        <li class="li_lateralRight animate__animated animate__fadeIn animate__slower animate__infinite">Birrerías</li>
+                    </ul>
+                </div>
+            </section>
+            <!-- HOME 5 -->
+            <section class="contenido_slider">
+                <img class="img_home" src="./img/home_5.png" alt="Internacionales">
+                <div class="menu_lateral">
+                    <ul>
+                        <li class="li_laterla_1 animate__animated animate__fadeIn animate__slower animate__infinite">Internacionales</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Estados Unidos</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Mexico</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Singapur</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Italia</li>
+                    </ul>
+                </div>
+            </section>
+            <!-- HOME 6 - 1 -->
+            <section class="contenido_slider">
+                <img class="img_home" src="./img/home_1_6.png" alt="Hoteles">
+                    <div class="menu_lateral">
+                        <ul>
+                            <li class="li_laterla_1 animate__animated animate__fadeIn animate__slower animate__infinite">Hoteles</li>
+                            <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Hostels</li>
+                            <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Airbnb</li>
+                            <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">All Inclusive</li>
+                        </ul>
+                    </div>
+            </section>
+            <!-- HOME 7 - 2 -->
+            <section class="contenido_slider">
+                <img class="img_home" src="./img/home_2_7.png" alt="Restaurantes">
+                    <div class="menu_lateral__right">
+                        <ul>
+                            <li class="li_lateralRight_1 animate__animated animate__fadeIn animate__slower animate__infinite">Restaurantes</li>
+                            <li class="li_lateralRight animate__animated animate__fadeIn animate__slower animate__infinite">Gourmet</li>
+                            <li class="li_lateralRight animate__animated animate__fadeIn animate__slower animate__infinite">Comida Rapida</li>
+                            <li class="li_lateralRight animate__animated animate__fadeIn animate__slower animate__infinite">Bodegon</li>
+                        </ul>
+                    </div>
+            </section>
+            <!-- HOME 8 - 3 -->
+            <section class="contenido_slider">
+                <img class="img_home" src="./img/home_3_8.png" alt="Cafeterias">
+                <div class="menu_lateral">
+                    <ul>
+                        <li class="li_laterla_1 animate__animated animate__fadeIn animate__slower animate__infinite">Cafeterias</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">de Especialidad</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Patisserie</li>
+                    </ul>
+                </div>
+            </section>
+            <!-- HOME 9 - 4 -->
+            <section class="contenido_slider">
+                <img class="img_home" src="./img/home_4_9.png" alt="Bares">
+                <div class="menu_lateral__right">
+                    <ul>
+                        <li class="li_lateralRight_1 animate__animated animate__fadeIn animate__slower animate__infinite">Bares</li>
+                        <li class="li_lateralRight animate__animated animate__fadeIn animate__slower animate__infinite">Cócteles</li>
+                        <li class="li_lateralRight animate__animated animate__fadeIn animate__slower animate__infinite">Birrerías</li>
+                    </ul>
+                </div>
+            </section>
+            <!-- HOME 10 - 5 -->
+            <section class="contenido_slider">
+                <img class="img_home" src="./img/home_5_10.png" alt="Internacionales">
+                <div class="menu_lateral">
+                    <ul>
+                        <li class="li_laterla_1 animate__animated animate__fadeIn animate__slower animate__infinite">Internacionales</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Estados Unidos</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Mexico</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Singapur</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Italia</li>
+                    </ul>
+                </div>
+            </section>
+            <!-- HOME 1 es la copia para q funcione la animacion-->
+            <section class="contenido_slider">
+                <img class="img_home" src="./img/home.png" alt="Hoteles">
+                <div class="menu_lateral">
+                    <ul>
+                        <li class="li_laterla_1 animate__animated animate__fadeIn animate__slower animate__infinite">Hoteles</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Hostels</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Airbnb</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">All Inclusive</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <div class="btn_idioma">
+            <button class="idioma_btn" id="btn_ingles">
+                <span><img class="btn_english" src="./img/flag-england.png" alt="idioma Ingles"></span>
+            </button>
+        </div>
+    </main>
+
+    <footer class="spanish_footer">
+        <div class="footer">
+            <div>
+                <img class="logoBoton_footer" src="./img/LOGO ROSA.png" alt="">
+            </div>
+            <div>
+                <h4>Seguime</h4>
+                <a href="https://www.instagram.com/experiencias.yed/" target="_blank">
+                    <div class="info_footer">
+                        <div class="logos_footer">
+                            <i class="bi bi-instagram icons_footer"></i>
+                        </div>
+                        <p>experiencias.yed</p>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <h4>Contactame</h4>
+                <div class="info_footer">
+                    <div class="logos_footer">
+                        <i class="bi bi-envelope icons_footer"></i>
+                    </div>
+                    <p>contactoyed@gmail.com</p>
+                </div>
+            </div>
+            <div>
+                <h4>Diseño UX/UI  - 
+                    <a href="https://www.linkedin.com/in/victoria-basilio-09b9a11ba/" target="_blank">
+                        <span class="text_talento"> Victoria Basilio</span>
+                    </a>
+                </h4>
+                <h4 class="estilo_talento">Desarrollo Web  - 
+                    <a href="https://www.linkedin.com/in/roberto-di-maggio/" target="_blank">
+                        <span class="text_talento"> Roberto Di Maggio y</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/german-benavides-leon/" target="_blank">
+                        <span class="text_talento">German Benavides</span>
+                    </a>
+                </h4>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- IDIOMA INGLES -->
+<main class="english">
+    <div class="botones_header">
+        <button class="botonLogo">
+            <img class="logoBoton_1" src="./img/LOGO ROSA.png" alt="Hoteles">
+            <h1 class="titulo_boton">Gastronomic and hotel reviews</h1>
+        </button>
+        <button class="botonContacto">
+            <h2 class="text_contacto">contactoyed@gmail.com</h2>
+            <div class="icono_Contacto">
+                <i class="bi bi-envelope icono_mail"></i>
+            </div>
+        </button>
+    </div>
+    <div class="slider_container__eng">
+        <!-- HOME 1 -->
+        <section class="contenido_slider__eng">
+            <img class="img_home" src="./img/home.png" alt="">
+                <div class="menu_lateral">
+                    <ul>
+                        <li class="li_laterla_1 animate__animated animate__fadeIn animate__slower animate__infinite">Hotels</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Hostels</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Airbnb</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">All Inclusive</li>
+                    </ul>
+                </div>
+        </section>
+        <!-- HOME 2 -->
+        <section class="contenido_slider__eng">
+            <img class="img_home" src="./img/home_2.png" alt="">
+                <div class="menu_lateral__right">
+                    <ul>
+                        <li class="li_lateralRight_1 animate__animated animate__fadeIn animate__slower animate__infinite">Restaurants</li>
+                        <li class="li_lateralRight animate__animated animate__fadeIn animate__slower animate__infinite">Gourmet</li>
+                        <li class="li_lateralRight animate__animated animate__fadeIn animate__slower animate__infinite">Fast Food</li>
+                        <li class="li_lateralRight animate__animated animate__fadeIn animate__slower animate__infinite">Bodegon</li>
+                    </ul>
+                </div>
+        </section>
+        <!-- HOME 3 -->
+        <section class="contenido_slider__eng">
+            <img class="img_home" src="./img/home_3.png" alt="Cafeterias">
+            <div class="menu_lateral">
+                <ul>
+                    <li class="li_laterla_1 animate__animated animate__fadeIn animate__slower animate__infinite">Coffee Shops</li>
+                    <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">of Specialties</li>
+                    <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Patisserie</li>
+                </ul>
+            </div>
+        </section>
+        <!-- HOME 4 -->
+        <section class="contenido_slider__eng">
+            <img class="img_home" src="./img/home_4.png" alt="Bares">
+            <div class="menu_lateral__right">
+                <ul>
+                    <li class="li_lateralRight_1 animate__animated animate__fadeIn animate__slower animate__infinite">Bars</li>
+                    <li class="li_lateralRight animate__animated animate__fadeIn animate__slower animate__infinite">Cocktails</li>
+                    <li class="li_lateralRight animate__animated animate__fadeIn animate__slower animate__infinite">Breweries</li>
+                </ul>
+            </div>
+        </section>
+        <!-- HOME 5 -->
+        <section class="contenido_slider__eng">
+            <img class="img_home" src="./img/home_5.png" alt="Internacionales">
+            <div class="menu_lateral">
+                <ul>
+                    <li class="li_laterla_1 animate__animated animate__fadeIn animate__slower animate__infinite">International</li>
+                    <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">United States</li>
+                    <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Mexico</li>
+                    <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Singapore</li>
+                    <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Italy</li>
+                </ul>
+            </div>
+        </section>
+        <!-- HOME 6 - 1 -->
+        <section class="contenido_slider__eng">
+            <img class="img_home" src="./img/home_1_6.png" alt="Hoteles">
+                <div class="menu_lateral">
+                    <ul>
+                        <li class="li_laterla_1 animate__animated animate__fadeIn animate__slower animate__infinite">Hotels</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Hostels</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Airbnb</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">All Inclusive</li>
+                    </ul>
+                </div>
+        </section>
+        <!-- HOME 7 - 2 -->
+        <section class="contenido_slider__eng">
+            <img class="img_home" src="./img/home_2_7.png" alt="Restaurantes">
+                <div class="menu_lateral__right">
+                    <ul>
+                        <li class="li_lateralRight_1 animate__animated animate__fadeIn animate__slower animate__infinite">Restaurants</li>
+                        <li class="li_lateralRight animate__animated animate__fadeIn animate__slower animate__infinite">Gourmet</li>
+                        <li class="li_lateralRight animate__animated animate__fadeIn animate__slower animate__infinite">Fast Food</li>
+                        <li class="li_lateralRight animate__animated animate__fadeIn animate__slower animate__infinite">Bodegon</li>
+                    </ul>
+                </div>
+        </section>
+        <!-- HOME 8 - 3 -->
+        <section class="contenido_slider__eng">
+            <img class="img_home" src="./img/home_3_8.png" alt="Cafeterias">
+                <div class="menu_lateral">
+                    <ul>
+                        <li class="li_laterla_1 animate__animated animate__fadeIn animate__slower animate__infinite">Coffee Shops</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">of Specialties</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Patisserie</li>
+                    </ul>
+                </div>
+        </section>
+        <!-- HOME 9 - 4 -->
+        <section class="contenido_slider__eng">
+            <img class="img_home" src="./img/home_4_9.png" alt="Bares">
+                <div class="menu_lateral__right">
+                    <ul>
+                        <li class="li_lateralRight_1 animate__animated animate__fadeIn animate__slower animate__infinite">Bars</li>
+                        <li class="li_lateralRight animate__animated animate__fadeIn animate__slower animate__infinite">Cocktails</li>
+                        <li class="li_lateralRight animate__animated animate__fadeIn animate__slower animate__infinite">Breweries</li>
+                    </ul>
+                </div>
+        </section>
+        <!-- HOME 10 - 5 -->
+        <section class="contenido_slider__eng">
+            <img class="img_home" src="./img/home_5_10.png" alt="Internacionales">
+                <div class="menu_lateral">
+                    <ul>
+                        <li class="li_laterla_1 animate__animated animate__fadeIn animate__slower animate__infinite">International</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">United States</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Mexico</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Singapore</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Italy</li>
+                    </ul>
+                </div>
+        </section>
+        <!-- HOME 1 es la copia para q funcione la animacion-->
+        <section class="contenido_slider__eng">
+            <img class="img_home" src="./img/home.png" alt="Hoteles">
+                <div class="menu_lateral">
+                    <ul>
+                        <li class="li_laterla_1 animate__animated animate__fadeIn animate__slower animate__infinite">Hotels</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Hostels</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">Airbnb</li>
+                        <li class="li_laterla animate__animated animate__fadeIn animate__slower animate__infinite">All Inclusive</li>
+                    </ul>
+                </div>
+        </section>
+    </div>
+    <div class="btn_idioma">
+        <button class="idioma_btn" id="btn_español">
+            <span><img class="btn_spanish" src="./img/flag3-spain-removebg-preview.png" alt="idioma Español"></span>
+        </button>
+    </div>
+</main>
+<footer class="english_footer">
+    <div class="footer">
+        <div>
+            <img src="./img/LOGO ROSA.png" alt="">
+        </div>
+        <div>
+            <h4>Follow me</h4>
+            <a href="https://www.instagram.com/experiencias.yed/" target="_blank">
+                <div class="info_footer">
+                    <div class="logos_footer">
+                        <i class="bi bi-instagram icons_footer"></i>
+                    </div>
+                    <p>experiencias.yed</p>
+                </div>
+            </a>
+        </div>
+        <div>
+            <h4>Contact me</h4>
+            <div class="info_footer">
+                <div class="logos_footer">
+                    <i class="bi bi-envelope icons_footer"></i>
+                </div>
+                <p>contactoyed@gmail.com</p>
+            </div>
+        </div>
+        <div>
+            <h4>Design UX/UI  - 
+                <a href="https://www.linkedin.com/in/victoria-basilio-09b9a11ba/" target="_blank">
+                    <span class="text_talento"> Victoria Basilio</span>
+                </a>
+            </h4>
+            <h4 class="estilo_talento">Web Development  - 
+                <a href="https://www.linkedin.com/in/roberto-di-maggio/" target="_blank">
+                    <span class="text_talento"> Roberto Di Maggio y</span>
+                </a><a href="https://www.linkedin.com/in/german-benavides-leon/" target="_blank">
+                    <span class="text_talento">German Benavides</span>
+                </a>
+            </h4>
+        </div>
+    </div>
+</footer>
+
+<!-- Js Funciones -->
+    <script src="./Js/idioma.js"></script>
+    <script src="./Js/slider.js"></script>
+     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+     
+</body>
+</html>
