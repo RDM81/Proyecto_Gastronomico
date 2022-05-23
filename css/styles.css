@@ -618,8 +618,8 @@ ul{
 
 .footer{
     background-color: #373737;
-    height: 500px;
-    width: 100%;
+    /* height: 500px;
+    width: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -637,8 +637,8 @@ ul{
 }
 
 .logoBoton_footer{
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
 }
 
 .logos_footer{
@@ -658,20 +658,20 @@ ul{
 h4{
     font-family: 'Roboto';
     color: #E7BAA0;
-    font-size: 14px
+    font-size: 8px
 
 }
 
 p{
     font-family: 'Roboto';
     color: white;
-    font-size: 14px;
+    font-size: 8px;
     
 }
 
 .text_talento{
     color: white;
-    font-size: 10px;
+    font-size: 8px;
     margin-left: 3px;
 }
 
@@ -679,4 +679,105 @@ p{
     margin-top: 8px;
 }
 
+}
+
+
+
+@media only screen and (min-width: 800px) and (max-width: 950px) {
+    .footer{
+        background-color: #373737;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        top: 30%;
+       
+    }
+
+    .btn_idioma{
+        position:absolute;
+        top: 20%;
+        left: 80%;
+        display: flex;
+        justify-content: right;
+        margin-top: 20px;
+        margin-bottom: 8px;
+        padding-right: 15px;
+    }
+    
+    .idioma_btn{
+        background-color: #E7BAA0;
+        width: 40px;
+        height: 26px;
+        border-radius: 22px;
+        border: none;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        position: relative;
+    }
+    
+    .btn_spanish{
+        width: 37px;
+        height: 21px;
+        transition: 0.3s;
+        background: none;
+    }
+    
+    .btn_spanish:hover{
+        transform: scale(1.2);
+    }
+    
+    .btn_english{
+        width: 20px;
+        height: 20px;
+        transition: 0.3s;
+        
+    }
+    
+    .btn_english:hover{
+        transform: scale(1.2);
+    }
+    
+    .idioma_btn__2{
+        width: 105px;
+        height: 26px;
+        border-radius: 22px;
+        border: none;
+        margin-top: 270px;
+        margin-right: 10px;
+    }
+    
+    .idioma_btn__3{
+        width: 52px;
+        height: 13px;
+        border-radius: 11px;
+        border: none;
+        margin-top: 40px;
+        margin-right: 5px;
+    }
+    
+    .idioma_btn__4{
+        width: 105px;
+        height: 26px;
+        border-radius: 22px;
+        border: none;
+        margin-top: 270px;
+        margin-right: 10px;
+    }
+    
+    .idioma_btn__5{
+        width: 105px;
+        height: 26px;
+        border-radius: 22px;
+        border: none;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
 }
