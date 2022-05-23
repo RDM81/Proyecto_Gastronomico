@@ -458,7 +458,7 @@ p{
     
 .menu_lateral{
     position: relative;
-    margin-top: 220px;
+    margin-top: 85px;
 }
 
 ul{
@@ -468,23 +468,23 @@ ul{
 
 .li_laterla_1{
     background-color: #373737;
-    width: 223px;
-    height: 33px;
+    width: 150px;
+    height: 30px;
     border-radius: 0 5px 5px 0;
     border: 1px solid #F5F5F5;
     border-left: none;
     line-height: 33px;
     text-align: right;
     padding: 0 10px; 
-    font-size: 15px;
+    font-size: 12px;
     font-family: 'Playfair Display', serif;
     color: white;
 }
 
 .li_laterla{
     background-color: #E5DACE;
-    width: 220px;
-    height: 33px;
+    width: 150px;
+    height: 30px;
     margin: 8px 0;
     border-radius: 0 5px 5px 0;
     line-height: 33px;
@@ -504,8 +504,8 @@ ul{
 
 .li_lateralRight_1{
     background-color: #373737;
-    width: 223px;
-    height: 33px;
+    width: 150px;
+    height: 30px;
     border-radius: 5px 0 0 5px;
     border: 1px solid #F5F5F5;
     border-right: none;
@@ -534,7 +534,7 @@ ul{
 
 .btn_idioma{
     position:absolute;
-    top: 20%;
+    top: 25%;
     left: 80%;
     display: flex;
     justify-content: right;
@@ -625,7 +625,7 @@ ul{
     justify-content: space-around;
     align-items: center;
     position: absolute;
-    top: 41%;
+    top: 37%;
    
 }
 
