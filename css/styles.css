@@ -60,6 +60,7 @@ main{
     justify-content: space-around;
     position: absolute;
     z-index: 2;
+    
 }
 
 .botonLogo{
@@ -211,6 +212,7 @@ ul{
     align-items: center;
     cursor: pointer;
     position: relative;
+    
 }
 
 .btn_spanish{
@@ -273,7 +275,7 @@ ul{
 
 .footer{
     background-color: #373737;
-    height: 200px;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -327,6 +329,10 @@ p{
     margin-top: 15px;
 }
 
+/* .margen_footer_top{
+    margin-top: 100px;
+} */
+
 
 .contenedor_loader {
     background-color: black;
@@ -335,7 +341,7 @@ p{
     height: 100vh;
     z-index: 9999;
     transition: all 3s;
-    transition-delay: 3s;
+    transition-delay: 6s;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -392,6 +398,9 @@ p{
 
 @media only screen and (max-width:800px) {
 
+    .ocultar{
+        overflow: hidden;
+}
     .botones_header{
         width: 100%;
         display: flex;
@@ -411,6 +420,7 @@ p{
         display: flex;
         align-items: center;
         justify-content:space-around;
+        overflow: hidden;
     }
     
     .logoBoton_1{
@@ -426,7 +436,7 @@ p{
     
     .botonContacto{
         background-color: #505954;
-        width: 151px;
+        width: 100px;
         height: 40px;
         border-radius: 50px;
         border: none;
@@ -434,12 +444,13 @@ p{
         justify-content: space-around;
         align-items: center;
         margin-top: 5px;
+        
     }
     
     .text_contacto{
         color:white;
         margin-left: 2px;
-        font-size: 10px;
+        font-size: 5px;
         font-family: 'Roboto'; 
     }
     
@@ -533,35 +544,36 @@ ul{
     margin-left: 53px;
 }
 
+
 .btn_idioma{
-    position:absolute;
-    top: 25%;
-    left: 80%;
+    position: relative;
+    bottom: 200px;
     display: flex;
     justify-content: right;
-    margin-top: 20px;
-    margin-bottom: 8px;
-    padding-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    padding-right: 30px;
 }
 
 .idioma_btn{
     background-color: #E7BAA0;
-    width: 40px;
-    height: 26px;
-    border-radius: 22px;
+    width: 80px;
+    height: 52px;
+    border-radius: 44px;
     border: none;
-    margin-top: 40px;
+    margin-top: 80px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     position: relative;
+    
+    
 }
 
 .btn_spanish{
-    width: 37px;
-    height: 21px;
+    width: 40px;
+    height: 40px;
     transition: 0.3s;
     background: none;
 }
@@ -571,8 +583,8 @@ ul{
 }
 
 .btn_english{
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     transition: 0.3s;
     
 }
@@ -582,204 +594,105 @@ ul{
 }
 
 .idioma_btn__2{
-    width: 105px;
-    height: 26px;
-    border-radius: 22px;
+    width: 210px;
+    height: 52px;
+    border-radius: 44px;
     border: none;
-    margin-top: 270px;
-    margin-right: 10px;
+    margin-top: 540px;
+    margin-right: 20px;
 }
 
 .idioma_btn__3{
-    width: 52px;
-    height: 13px;
-    border-radius: 11px;
+    width: 210px;
+    height: 52px;
+    border-radius: 44px;
     border: none;
-    margin-top: 40px;
-    margin-right: 5px;
+    margin-top: 160px;
+    margin-right: 20px;
 }
 
 .idioma_btn__4{
-    width: 105px;
-    height: 26px;
-    border-radius: 22px;
+    width: 210px;
+    height: 52px;
+    border-radius: 44px;
     border: none;
-    margin-top: 270px;
-    margin-right: 10px;
+    margin-top: 540px;
+    margin-right: 20px;
 }
 
 .idioma_btn__5{
-    width: 105px;
-    height: 26px;
-    border-radius: 22px;
+    width: 210px;
+    height: 52px;
+    border-radius: 44px;
     border: none;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .footer{
     background-color: #373737;
-    /* height: 500px; */
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    position: absolute;
-    top: 37%;
-    bottom: 0%;
+    position: relative;
+    bottom: 190px;
+    overflow: hidden;
    
 }
 
 .info_footer{
     display: flex;
     align-items: center;
-    margin-top: 8px;
+    margin-top: 15px;
     cursor: pointer;
-}
-
-.logoBoton_footer{
-    width: 20px;
-    height: 20px;
+    justify-content: center;
 }
 
 .logos_footer{
     background-color: white;
-    border-radius: 50px;
-    width: 13px;
-    height: 13px;
-    margin-right: 5px;
+    border-radius: 100px;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
     text-align: center;
 }
 
 .icons_footer{
-    line-height: 13px;
-    font-size: 7px;
+    line-height: 25px;
+    font-size: 14px;
 }
 
 h4{
     font-family: 'Roboto';
     color: #E7BAA0;
-    font-size: 8px
+    font-size: 14px
 
 }
 
 p{
     font-family: 'Roboto';
     color: white;
-    font-size: 8px;
+    font-size: 14px;
     
 }
 
 .text_talento{
     color: white;
-    font-size: 10px;
-    margin-left: 3px;
+    font-weight: 400;
+    margin-left: 5px;
 }
 
 .estilo_talento{
-    margin-top: 8px;
+    margin-top: 15px;
 }
 
+
+
 }
-
-
 
 @media only screen and (min-width: 800px) and (max-width: 950px) {
-    .footer{
-        background-color: #373737;
-        height: 500px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        position: absolute;
-        top: 30%;
-       
-    }
 
-    .btn_idioma{
-        position:absolute;
-        top: 20%;
-        left: 80%;
-        display: flex;
-        justify-content: right;
-        margin-top: 20px;
-        margin-bottom: 8px;
-        padding-right: 15px;
-    }
-    
-    .idioma_btn{
-        background-color: #E7BAA0;
-        width: 40px;
-        height: 26px;
-        border-radius: 22px;
-        border: none;
-        margin-top: 40px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-        position: relative;
-    }
-    
-    .btn_spanish{
-        width: 37px;
-        height: 21px;
-        transition: 0.3s;
-        background: none;
-    }
-    
-    .btn_spanish:hover{
-        transform: scale(1.2);
-    }
-    
-    .btn_english{
-        width: 20px;
-        height: 20px;
-        transition: 0.3s;
-        
-    }
-    
-    .btn_english:hover{
-        transform: scale(1.2);
-    }
-    
-    .idioma_btn__2{
-        width: 105px;
-        height: 26px;
-        border-radius: 22px;
-        border: none;
-        margin-top: 270px;
-        margin-right: 10px;
-    }
-    
-    .idioma_btn__3{
-        width: 52px;
-        height: 13px;
-        border-radius: 11px;
-        border: none;
-        margin-top: 40px;
-        margin-right: 5px;
-    }
-    
-    .idioma_btn__4{
-        width: 105px;
-        height: 26px;
-        border-radius: 22px;
-        border: none;
-        margin-top: 270px;
-        margin-right: 10px;
-    }
-    
-    .idioma_btn__5{
-        width: 105px;
-        height: 26px;
-        border-radius: 22px;
-        border: none;
-        margin-right: 10px;
-        margin-bottom: 10px;
-    }
 }
