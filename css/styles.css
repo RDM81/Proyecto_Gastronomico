@@ -551,7 +551,7 @@ ul{
 
 .btn_idioma{
     position: relative;
-    bottom: 200px;
+    bottom: 75px;
     display: flex;
     justify-content: right;
     margin-top: 40px;
@@ -561,11 +561,11 @@ ul{
 
 .idioma_btn{
     background-color: #E7BAA0;
-    width: 80px;
-    height: 52px;
-    border-radius: 44px;
+    width: 40px;
+    height: 26px;
+    border-radius: 22px;
     border: none;
-    margin-top: 80px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -576,8 +576,8 @@ ul{
 }
 
 .btn_spanish{
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     transition: 0.3s;
     background: none;
 }
@@ -587,8 +587,8 @@ ul{
 }
 
 .btn_english{
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     transition: 0.3s;
     
 }
@@ -598,39 +598,39 @@ ul{
 }
 
 .idioma_btn__2{
-    width: 210px;
-    height: 52px;
-    border-radius: 44px;
+    width: 105px;
+    height: 26px;
+    border-radius: 22px;
     border: none;
-    margin-top: 540px;
-    margin-right: 20px;
+    margin-top: 270px;
+    margin-right: 10px;
 }
 
 .idioma_btn__3{
-    width: 210px;
-    height: 52px;
-    border-radius: 44px;
+    width: 105px;
+    height: 26px;
+    border-radius: 22px;
     border: none;
-    margin-top: 160px;
+    margin-top: 80px;
     margin-right: 20px;
 }
 
 .idioma_btn__4{
-    width: 210px;
-    height: 52px;
-    border-radius: 44px;
+    width: 105px;
+    height: 26px;
+    border-radius: 22px;
     border: none;
-    margin-top: 540px;
-    margin-right: 20px;
+    margin-top: 270px;
+    margin-right: 10px;
 }
 
 .idioma_btn__5{
-    width: 210px;
-    height: 52px;
-    border-radius: 44px;
+    width: 105px;
+    height: 26px;
+    border-radius: 22px;
     border: none;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .footer{
@@ -642,7 +642,7 @@ ul{
     justify-content: space-around;
     align-items: center;
     position: relative;
-    bottom: 190px;
+    bottom: 75px;
     overflow: hidden;
    
 }
