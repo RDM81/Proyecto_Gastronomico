@@ -393,14 +393,16 @@ p{
     font-size: 62.5%;
 }
 
-.color_body{
-    background-color: #373737;
-}
+
 
 
 /* RESPONSIVE */
 
 @media only screen and (max-width:800px) {
+
+    .color_body{
+        background-color: #373737;
+    }
 
     .color_body_mobil{
         background-color: #373737;
