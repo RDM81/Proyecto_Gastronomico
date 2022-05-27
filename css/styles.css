@@ -643,7 +643,7 @@ ul{
     align-items: center;
     position: relative;
     bottom: 190px;
-    /* overflow: hidden; */
+    overflow: hidden;
    
 }
 
