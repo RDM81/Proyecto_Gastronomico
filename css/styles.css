@@ -547,7 +547,7 @@ ul{
 
 .btn_idioma{
     position: relative;
-    bottom: 200px;
+    /* bottom: 200px; */
     display: flex;
     justify-content: right;
     margin-top: 40px;
@@ -638,8 +638,8 @@ ul{
     justify-content: space-around;
     align-items: center;
     position: relative;
-    bottom: 190px;
-    overflow: hidden;
+    /* bottom: 190px; */
+    /* overflow: hidden; */
    
 }
 
