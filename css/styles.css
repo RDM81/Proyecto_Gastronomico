@@ -642,7 +642,7 @@ ul{
     justify-content: space-around;
     align-items: center;
     position: relative;
-    /* bottom: 190px; */
+    bottom: 190px;
     /* overflow: hidden; */
    
 }
