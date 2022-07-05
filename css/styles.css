@@ -278,9 +278,7 @@ p{
 
 @media only screen and (max-width:800px) {
 
-    .color_body{
-        background-color: #373737;
-    }
+   
 
     .color_body_mobil{
         background-color: #373737;
@@ -443,7 +441,7 @@ ul{
     justify-content: space-around;
     align-items: center;
     position: relative;
-    bottom: 100px;
+    bottom: 85px;
 }
 
 .footer_titulo_seguime{
