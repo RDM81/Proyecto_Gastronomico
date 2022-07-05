@@ -6,53 +6,31 @@
 }
 
 
+
 main{
     overflow: hidden;
 }
 
-.spanish{
-    display:block;
-}
-
-.english{
-    display: none;
-}
-
-.spanish_footer{
-    display: block;
-}
-
-.english_footer{
-    display: none;
-}
-
 .slider_container{
     width: 100%;
-    height: 100%;
     display: flex;
-    
-}
-
-.slider_container__eng{
-    width: 100%;
-    height: 100%;
-    display: flex;
+    margin-bottom: 180px;
 }
 
 .contenido_slider{
     width: 100%;
-    flex-shrink: 0;
-}
-
-.contenido_slider__eng{
-    width: 100%;
+    height: auto;
     flex-shrink: 0;
 }
 
 .img_home{
     position: absolute;
     width: 100%;
+    height: auto;
 }
+
+
+/* TITULO Y BOTON DE CONTACTO */
 
 .botones_header{
     width: 100%;
@@ -60,7 +38,6 @@ main{
     justify-content: space-around;
     position: absolute;
     z-index: 2;
-    
 }
 
 .botonLogo{
@@ -115,9 +92,12 @@ main{
     line-height: 50px;
 }
 
+
+/* TITULOS LATERALES */
+
 .menu_lateral{
     position: relative;
-    margin-top: 220px;
+    margin-top: 280px;
 }
 
 ul{
@@ -156,9 +136,8 @@ ul{
 
 .menu_lateral__right{
     position: absolute;
-    margin-top: 220px;
+    margin-top: 280px;
     margin-left: 68%;
-    
  }
 
 .li_lateralRight_1{
@@ -191,97 +170,17 @@ ul{
     margin-left: 105px;
 }
 
-.btn_idioma{
-    position: relative;
-    display: flex;
-    justify-content: right;
-    margin-top: 40px;
-    margin-bottom: 15px;
-    padding-right: 30px;
-}
 
-.idioma_btn{
-    background-color: #E7BAA0;
-    width: 80px;
-    height: 52px;
-    border-radius: 44px;
-    border: none;
-    margin-top: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    position: relative;
-    
-}
-
-.btn_spanish{
-    width: 40px;
-    height: 40px;
-    transition: 0.3s;
-    background: none;
-}
-
-.btn_spanish:hover{
-    transform: scale(1.2);
-}
-
-.btn_english{
-    width: 40px;
-    height: 40px;
-    transition: 0.3s;
-    
-}
-
-.btn_english:hover{
-    transform: scale(1.2);
-}
-
-.idioma_btn__2{
-    width: 210px;
-    height: 52px;
-    border-radius: 44px;
-    border: none;
-    margin-top: 540px;
-    margin-right: 20px;
-}
-
-.idioma_btn__3{
-    width: 210px;
-    height: 52px;
-    border-radius: 44px;
-    border: none;
-    margin-top: 160px;
-    margin-right: 20px;
-}
-
-.idioma_btn__4{
-    width: 210px;
-    height: 52px;
-    border-radius: 44px;
-    border: none;
-    margin-top: 540px;
-    margin-right: 20px;
-}
-
-.idioma_btn__5{
-    width: 210px;
-    height: 52px;
-    border-radius: 44px;
-    border: none;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
+/* FOOTER */
 
 .footer{
     background-color: #373737;
-    height: 100%;
+    height: 200px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: relative;
-   
 }
 
 .info_footer{
@@ -309,7 +208,6 @@ h4{
     font-family: 'Roboto';
     color: #E7BAA0;
     font-size: 14px
-
 }
 
 p{
@@ -328,10 +226,6 @@ p{
 .estilo_talento{
     margin-top: 15px;
 }
-
-/* .margen_footer_top{
-    margin-top: 100px;
-} */
 
 
 .contenedor_loader {
@@ -378,22 +272,6 @@ p{
     left: 3.5em;
 }
 
-@keyframes loader {
-    0%,
-    80%,
-    100% {
-        box-shadow: 0 2.5em 0 -1.3em;
-    }
-    40% {
-        box-shadow: 0 2.5em 0 0;
-    }
-}
-
-*{
-    font-size: 62.5%;
-}
-
-
 
 
 /* RESPONSIVE */
@@ -407,73 +285,77 @@ p{
     .color_body_mobil{
         background-color: #373737;
 }
-    .botones_header{
-        width: 100%;
-        display: flex;
-        /* flex-direction: column; */
-        justify-content: space-around;
-        position: absolute;
-        z-index: 2;
-        overflow: hidden;
-    }
-    
-    .botonLogo{
-        background-color: #373737;
-        width: 200px;
-        height: 53px;
-        border-radius: 0 0 10px 10px;
-        border: none;
-        display: flex;
-        align-items: center;
-        justify-content:space-around;
-        overflow: hidden;
-    }
-    
-    .logoBoton_1{
-        width: 33px;
-        height: 33px;
-    }
-    
-    .titulo_boton{
-        font-size: 9px;
-        color:white;
-        font-family: 'Playfair Display', serif;
-    }
-    
-    .botonContacto{
-        background-color: #505954;
-        width: 100px;
-        height: 40px;
-        border-radius: 50px;
-        border: none;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin-top: 5px;
-        
-    }
-    
-    .text_contacto{
-        color:white;
-        margin-left: 2px;
-        font-size: 5px;
-        font-family: 'Roboto'; 
-    }
-    
-    .icono_Contacto{
-        background-color: white;
-        border-radius: 50px;
-        width: 25px;
-        height: 25px;
-    }
-    
-    .icono_mail{
-        font-size: 15px;
-        line-height: 25px;
-    }
+   
+/* TITULO Y BOTON DE CONTACTO */
+
+.botones_header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 2;
+}
+
+.botonLogo{
+    background-color: #373737;
+    width: 229px;
+    height: 52px;
+    border-radius: 0 0 10px 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.logoBoton_1{
+    width: 33px;
+    height: 33px;
+}
+
+.logoBoton_2{
+    width: 66px;
+    height: 66px;
+}
+
+.titulo_boton{
+    font-size: 9px;
+    color:white;
+    font-family: 'Playfair Display', serif;
+}
+
+.botonContacto{
+    background-color: #505954;
+    width: 151px;
+    height: 34px;
+    border-radius: 23px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.text_contacto{
+    color:white;
+    font-size: 8px;
+    font-family: 'Roboto'; 
+}
+
+.icono_Contacto{
+    background-color: white;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+}
+
+.icono_mail{
+    font-size: 15px;
+    line-height: 25px;
+}
 
 
-    
+/* TITULOS LATERALES */
+
 .menu_lateral{
     position: relative;
     margin-top: 85px;
@@ -494,7 +376,7 @@ ul{
     line-height: 33px;
     text-align: right;
     padding: 0 10px; 
-    font-size: 12px;
+    font-size: 15px;
     font-family: 'Playfair Display', serif;
     color: white;
 }
@@ -503,7 +385,7 @@ ul{
     background-color: #E5DACE;
     width: 150px;
     height: 30px;
-    margin: 8px 0;
+    margin: 7px 0;
     border-radius: 0 5px 5px 0;
     line-height: 33px;
     text-align: right;
@@ -515,9 +397,8 @@ ul{
 
 .menu_lateral__right{
     position: absolute;
-    margin-top: 110px;
-    margin-left: 34%;
-    
+    margin-top: 70px;
+    margin-left: 50%;
  }
 
 .li_lateralRight_1{
@@ -539,7 +420,7 @@ ul{
     background-color: #E5DACE;
     width: 170px;
     height: 33px;
-    margin: 8px 0;
+    margin: 7px 0;
     border-radius: 5px 0 0 5px;
     line-height: 33px;
     text-align: left;
@@ -547,158 +428,80 @@ ul{
     font-size: 15px;
     font-family: 'Playfair Display', serif;
     color: #373737;
-    margin-left: 53px;
+    margin-left: 52px;
 }
 
 
-.btn_idioma{
-    position: relative;
-    bottom: 75px;
-    display: flex;
-    justify-content: right;
-    margin-top: 40px;
-    margin-bottom: 15px;
-    padding-right: 30px;
-}
-
-.idioma_btn{
-    background-color: #E7BAA0;
-    width: 40px;
-    height: 26px;
-    border-radius: 22px;
-    border: none;
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    position: relative;
-    
-    
-}
-
-.btn_spanish{
-    width: 20px;
-    height: 20px;
-    transition: 0.3s;
-    background: none;
-}
-
-.btn_spanish:hover{
-    transform: scale(1.2);
-}
-
-.btn_english{
-    width: 20px;
-    height: 20px;
-    transition: 0.3s;
-    
-}
-
-.btn_english:hover{
-    transform: scale(1.2);
-}
-
-.idioma_btn__2{
-    width: 105px;
-    height: 26px;
-    border-radius: 22px;
-    border: none;
-    margin-top: 270px;
-    margin-right: 10px;
-}
-
-.idioma_btn__3{
-    width: 105px;
-    height: 26px;
-    border-radius: 22px;
-    border: none;
-    margin-top: 80px;
-    margin-right: 20px;
-}
-
-.idioma_btn__4{
-    width: 105px;
-    height: 26px;
-    border-radius: 22px;
-    border: none;
-    margin-top: 270px;
-    margin-right: 10px;
-}
-
-.idioma_btn__5{
-    width: 105px;
-    height: 26px;
-    border-radius: 22px;
-    border: none;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
+/* FOOTER */
 
 .footer{
     background-color: #373737;
-    height: 100%;
+    height: 100px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     position: relative;
-    bottom: 75px;
-    overflow: hidden;
-   
+    bottom: 100px;
+}
+
+.footer_titulo_seguime{
+    text-align: center;
+    
 }
 
 .info_footer{
     display: flex;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 7px;
     cursor: pointer;
     justify-content: center;
 }
 
+
+
 .logos_footer{
     background-color: white;
-    border-radius: 100px;
-    width: 25px;
-    height: 25px;
-    margin-right: 10px;
+    border-radius: 50px;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
     text-align: center;
 }
 
 .icons_footer{
-    line-height: 25px;
-    font-size: 14px;
+    line-height: 12px;
+    font-size: 7px;
+    position: relative;
+    bottom: 5px;
+    
 }
 
 h4{
     font-family: 'Roboto';
     color: #E7BAA0;
-    font-size: 14px
-
+    font-size: 12px
 }
 
 p{
     font-family: 'Roboto';
     color: white;
-    font-size: 14px;
+    font-size: 9px;
     
 }
 
 .text_talento{
     color: white;
-    font-weight: 400;
-    margin-left: 5px;
+    font-weight: 100;
+    margin-left: 2px;
 }
 
 .estilo_talento{
-    margin-top: 15px;
+    margin-top: 7px;
+    font-size: 9px;
 }
 
 
-
-}
-
-@media only screen and (min-width: 800px) and (max-width: 950px) {
 
 }
