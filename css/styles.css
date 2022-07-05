@@ -228,7 +228,7 @@ p{
 }
 
 
-.contenedor_loader {
+/* .contenedor_loader {
     background-color: black;
     position: fixed;
     width: 100vw;
@@ -270,7 +270,7 @@ p{
 
 .loader:after {
     left: 3.5em;
-}
+} */
 
 
 
